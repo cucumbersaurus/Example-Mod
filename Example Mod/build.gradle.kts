@@ -5,7 +5,10 @@ plugins {
 base { archivesName.set(project.extra["archives_base_name"] as String) }
 version = project.extra["mod_version"] as String
 group = project.extra["maven_group"] as String
+
 repositories {}
+
+
 dependencies {
     minecraft("com.mojang", "minecraft", project.extra["minecraft_version"] as String)
     mappings("net.fabricmc", "yarn", project.extra["yarn_mappings"] as String, null, "v2")

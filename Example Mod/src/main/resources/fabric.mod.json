@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "mod_id",
+  "id": "cucumbermod",
   "version": "${version}",
-  "name": "Mod Name",
-  "description": "Mod Description",
+  "name": "Cucumber Mod",
+  "description": "just mod",
   "authors": [
-    "Author"
+    "Cucumbersaurus"
   ],
   "contact": {
     "homepage": "https://example.com/",
@@ -13,18 +13,18 @@
     "sources": "https://example.com/"
   },
   "license": "The Unlicense",
-  "icon": "assets/mod_name/icon.png",
+  "icon": "assets/cucumbermod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       {
         "adapter": "kotlin",
-        "value": "com.mod_author.mod_id.ModName"
+        "value": "com.cucumbersaurus.cucumbermod.CucumberMod"
       }
     ]
   },
   "mixins": [
-    "mod_id.mixins.json"
+    "cucumbermod.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabricloader}",
