@@ -16,8 +16,7 @@ class Cucumber: ModItem(
                 .hunger(2)
                 .saturationModifier(0.2f)
                 .build()
-        ),
-    "cucumber"
+        )
 ){
 
     init {
@@ -29,4 +28,7 @@ class Cucumber: ModItem(
                 )
             })
     }
+
+    override val id: ModItems
+        get() = ModItems.CUCUMBER
 }
